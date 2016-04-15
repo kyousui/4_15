@@ -7,6 +7,7 @@ body{
     margin: 0 ;
 }
 #header{
+    padding: 20px ;
     text-align: center;
     width: 1000px ;
     background-color: aqua ;
@@ -17,11 +18,18 @@ body{
     height:900px  ;
     background-color: bisque ;
     width: 150px ;
+    margin-bottom:20px ;
 }
 
 #content {
-    background-color: fuchsia ;
+    background-color: skyblue;
     margin-left: 170px ;
+    height: 900px ;
+    padding: 50px ;
+}
+#content section{
+    margin-bottom: 100px ;
+    color:#fff ;
 }
 
 #footer{
